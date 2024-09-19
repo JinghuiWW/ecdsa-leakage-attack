@@ -4,7 +4,7 @@ This repository contains Python source code for attacking ECDSA with nonce leaka
 
 ** Yiming Gao, Jinghui Wang, Honggang Hu and Binang He, Attacking ECDSA with Nonce Leakage by Lattice Sieving: Bridging the Gap with Fourier Analysis-based Attacks. ** 
 
-In this paper, we aim to give a solution to an open question: Can lattice-based attacks be enhanced by utilizing more samples? Using this repository, we can break 160-bit ECDSA with 1-bit leakage using approximately $2^{25}$ ECDSA samples. In addition, our new algorithms
+In this [paper](https://eprint.iacr.org/2024/296), we aim to give a solution to an open question: Can lattice-based attacks be enhanced by utilizing more samples? Using this repository, we can break 160-bit ECDSA with 1-bit leakage using approximately $2^{25}$ ECDSA samples. In addition, our new algorithms
 for solving the HNP are extended to address the case of erroneous input, increasing the robustness of lattice-based attacks.
 
 ## Key Recovery of ECDSA with Nonce Leakage
